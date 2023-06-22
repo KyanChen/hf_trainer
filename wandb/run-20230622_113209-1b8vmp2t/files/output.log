@@ -1,0 +1,18 @@
+
+  0%|          | 0/21 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/main.py", line 127, in <module>
+    train()
+  File "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/main.py", line 121, in train
+    trainer.train()
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 1633, in train
+    return inner_training_loop(
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 1902, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 2638, in training_step
+    inputs = self._prepare_inputs(inputs)
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 2585, in _prepare_inputs
+    raise ValueError(

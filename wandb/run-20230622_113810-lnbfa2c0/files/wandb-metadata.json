@@ -1,0 +1,31 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.10.10",
+    "heartbeatAt": "2023-06-22T03:38:12.052558",
+    "startedAt": "2023-06-22T03:38:10.434139",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--output_dir",
+        "'tmp'"
+    ],
+    "state": "running",
+    "program": "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/main.py",
+    "codePath": "main.py",
+    "host": "P2QTY9P9FY",
+    "username": "kyanchen",
+    "executable": "/Users/kyanchen/miniconda3/envs/torch2/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 8.326896667480469
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

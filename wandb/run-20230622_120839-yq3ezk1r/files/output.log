@@ -1,0 +1,8 @@
+
+  0%|          | 0/39 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 2645, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 2677, in compute_loss
+    outputs = model(**inputs)
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)

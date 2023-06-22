@@ -1,0 +1,20 @@
+
+  0%|          | 0/21 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/main.py", line 127, in <module>
+    train()
+  File "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/main.py", line 121, in train
+    trainer.train()
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 1633, in train
+    return inner_training_loop(
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 1872, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 634, in __next__
+    data = self._next_data()
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 678, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/vqvae/vq_dataset.py", line 127, in __getitem__
+    if self.cache_mode:

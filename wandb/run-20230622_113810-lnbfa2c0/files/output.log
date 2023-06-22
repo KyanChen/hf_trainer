@@ -1,0 +1,18 @@
+
+  0%|          | 0/39 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/main.py", line 128, in <module>
+    train()
+  File "/Users/kyanchen/codes/motion/trainer/trainer_exmaple/main.py", line 122, in train
+    trainer.train()
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 1633, in train
+    return inner_training_loop(
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer.py", line 1872, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 634, in __next__
+    data = self._next_data()
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 678, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/Users/kyanchen/miniconda3/envs/torch2/lib/python3.10/site-packages/transformers/trainer_utils.py", line 703, in __call__
+    return self.data_collator(features)
